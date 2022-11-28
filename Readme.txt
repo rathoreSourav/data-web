@@ -1,6 +1,12 @@
-Thanks for downloading this template!
-
-Template Name: NiceAdmin
-Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Homepage:
+Report:
+  yearwise biketheft trend
+  areawsie biketheft trend
+  overall biketheft trend
+ 
+Chart:
+  Previous static chart and explanations of the report
+  
+Dataset:
+  upload dataset
+  explore dataset
