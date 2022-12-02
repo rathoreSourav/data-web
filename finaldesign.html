@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Bike Theft Analysis</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/bikeTheft.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+<!--end chart div time-->
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/bikeTheft.png" alt="">
+        <span class="d-none d-lg-block">Bike Theft Analysis</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->        
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Insights</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="reports.html">
+              <i class="bi bi-circle"></i><span>Bike Theft Trend</span>
+            </a>
+          </li>
+          <li>
+            <a href="theftreportarea.html">
+              <i class="bi bi-circle"></i><span>Bike Theft Area Wise Status</span>
+            </a>
+          </li>
+          <li>
+            <a href="yearwisereport.html">
+              <i class="bi bi-circle"></i><span>Bike Theft year Wise status</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+    
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Analysis Report</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="initialdesign.html">
+              <i class="bi bi-circle"></i><span>Initial Design</span>
+            </a>
+          </li>
+          <li>
+            <a href="finaldesign.html">
+              <i class="bi bi-circle"></i><span>Refined Visualization</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>About Us</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="users-profile.html">
+              <i class="bi bi-circle"></i><span>Our Team</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Forms Nav -->
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Refined Visualization</h1>
+      <nav>
+        
+      </nav>
+    </div>
+
+    <section class="section dashboard">
+      
+     <div class="col-12">
+       <div class="card">
+ 
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/fin_chart1.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Line graph Visualization</h5>
+              <p class="card-text">We used the count of bikes stolen against each year to analyse which year saw the highest thefts. Line graph represents the data in a way that it can be interpreted in a user-friendly way and shows data accurately. This is a line graph which represents the number of bikes that were stolen from 2017 to 2021. 2018 showed the highest number of thefts and saw a decline from here on till 2021. </p>
+              </div>
+            </div>
+          </div><!-- End Card with an image on left -->
+        </div>
+        <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/fin_chart2.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Bar Chart Visualization</h5>
+              <p class="card-text">Analyzed the number of thefts based on days the incident was reported, and the above bar chart illustrates that the most incidents occurred on mondays, while weekends were the least reported days.
+
+The data that has been visualized here is the count of cases reported on each day. The visualization illustrated maximum thefts occurring on Mondays and weekends see less number of thefts. From Friday onwards, the trend can be seen decreasing. 
+</p>
+              </div>
+            </div>
+          </div><!-- End Card with an image on left -->
+        </div>
+        <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/fin_chart3.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Location Heat Map Visualization</h5>
+              <p class="card-text">Data used here is the count of thefts that have occurred and have been reported in a particular public place. This has been represented using a heat map. It is surprising to know that the main target of thieves were the single home/house trailing by commercial places and highways. Public spots within closed boundaries have been less susceptible to thefts.</p>
+              </div>
+            </div>
+          </div><!-- End Card with an image on left -->
+        </div>
+        <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/fin_chart4.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Area Heat Map Visualization</h5>
+              <p class="card-text">The data used here is of the number of bike thefts that have occurred and been reported in some areas of Ottawa. To represent the data accurately and in a visually interpretive way, we have used a heat map. Centretown experiences the most number of bike thefts and hence has been shown as dark blue box with a larger area for users to see clearly. The next two areas with most cases are Sandy Hill and glebe-dows Lake. Other areas represented in light blue colour are areas that are not very popular for thefts and see less cases reported.</p>
+              </div>
+            </div>
+          </div><!-- End Card with an image on left -->
+        </div>
+        <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/fin_chart5.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Line Graph Representations</h5>
+              <p class="card-text">This is a line graph that uses the data which tells us the time of the day when the theft happened. From the visualization we can infer that thefts suddenly shoot up between the time 6AM - 8AM making 8AM the peak time for thefts at about close to 475 thefts from the dataset. After 8AM, thefts have been irregular. At 10AM the count can be seen going down and then again increasing at 12 noon. There is an irregular pattern of increasing and decreasing thefts in intervals of every two hours. At night, after 12AM, thefts can be seen steeply decreasing till 1AM and then showing the least number of cases till 6AM. Thieves are probably sleeping.</p>
+              </div>
+            </div>
+          </div><!-- End Card with an image on left -->
+        </div>
+
+         <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/fin_chart6.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Bar Chart Representations</h5>
+              <p class="card-text">The data used here is the number of thefts within zones of the town. Bar chart has been used to represent this data as the data was linear. Areas in Ottawa have been divided into three major zones and this helps in understanding which zone sees the maximum theft cases. According to the visualization, the central zone is the most theft prone zone at about 500 thefts. East and West are marginally on the lower end almost at close to 80% less threats or more. East zone experiences the least cases
+.</p>
+              </div>
+            </div>
+          </div><!-- End Card with an image on left -->
+        </div>
+
+         <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/fin_chart7.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Bar Chart Representations</h5>
+              <p class="card-text">The data set contained the status of thefts for all the cases reported. The data has been represented with the help of a bar chart. All cases reported fell under the 7 categories - stolen, found, lost, seized, recovered, counterfeit or N/A. It can be easily interpreted from the above visualization that almost more than 95% cases of bike thefts that have been reported were stolen. Less than 10% were recovered. It can be understood that most bikes get stolen and cannot be found or recovered after being reported.</p>
+              </div>
+            </div>
+          </div><!-- End Card with an image on left -->
+        </div>
+
+
+          
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="credits">
+       Designed at <a href="#">Carleton U</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
