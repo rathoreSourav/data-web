@@ -1,6 +1,10 @@
-Thanks for downloading this template!
+Hello everyone,
 
-Template Name: NiceAdmin
-Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+We would like to receive your feedback on our website created for data visualization for the bike theft reports in Ottawa.
+You can access the website at https://data-web-beta.vercel.app/
+
+By accessing the homepage, you can verify the bike theft data dashboard.
+You can further verify the year-wise, area wise trend under the report data.
+One can also read the entire report under the chart link at the left.
+
+Thank you!
